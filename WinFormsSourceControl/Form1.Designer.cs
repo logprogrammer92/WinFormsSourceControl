@@ -77,7 +77,7 @@
             calcAreaAndPerimeterButton.TabIndex = 4;
             calcAreaAndPerimeterButton.Text = "Calculate Area and Perimeter";
             calcAreaAndPerimeterButton.UseVisualStyleBackColor = true;
-            calcAreaAndPerimeterButton.Click += calcAreaAndPerimeterButton_Click;
+            calcAreaAndPerimeterButton.Click += CalcAreaAndPerimeterButton_Click;
             // 
             // areaTextbox
             // 

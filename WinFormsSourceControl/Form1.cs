@@ -1,5 +1,5 @@
-namespace WinFormsSourceControl
-{
+namespace WinFormsSourceControl;
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -7,7 +7,7 @@ namespace WinFormsSourceControl
             InitializeComponent();
         }
 
-        private void calcAreaAndPerimeterButton_Click(object sender, EventArgs e)
+        private void CalcAreaAndPerimeterButton_Click(object sender, EventArgs e)
         {
             int length = Convert.ToInt32(lengthTextBox.Text);
             int width = Convert.ToInt32(widthTextBox.Text);
@@ -19,4 +19,4 @@ namespace WinFormsSourceControl
             perimeterTextBox.Text = "Perimeter is: " + perimeter;
         }
     }
-}
+
