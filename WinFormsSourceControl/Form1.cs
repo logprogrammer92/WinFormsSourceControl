@@ -27,6 +27,11 @@ namespace WinFormsSourceControl
             areaTextbox.Text = "Area is: " + area;
             perimeterTextBox.Text = "Perimeter is: " + perimeter;
         }
+
+        private void perimeterTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
