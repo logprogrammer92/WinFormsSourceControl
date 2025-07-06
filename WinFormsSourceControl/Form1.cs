@@ -28,4 +28,5 @@ namespace WinFormsSourceControl
             perimeterTextBox.Text = "Perimeter is: " + perimeter;
         }
     }
+}
 
